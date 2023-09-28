@@ -1,7 +1,8 @@
 # LosPitufos-CuartoSemestre
 
 
-![Uploading SmurfsTheGIF.gif…]()
+
+![Uploading TheSmurfsBrainySmurfGIF.gif…]()
 
 
 
