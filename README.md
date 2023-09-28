@@ -1,7 +1,9 @@
 # LosPitufos-CuartoSemestre
 
 
-![Uploading TheSmurfsCatapultGIF.gif…]()
+![Uploading SmurfsTheGIF.gif…]()
+
+
 
 
 Mayra Manzaneda
