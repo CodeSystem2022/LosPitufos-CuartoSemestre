@@ -1,0 +1,3 @@
+tupla_str = ('Hola', 'alumnos', 'Tecnicatura', 'Univesitaria')
+mensaje = ''.join(tupla_str)
+print(f'Mensaje: {mensaje}')
