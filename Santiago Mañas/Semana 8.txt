@@ -1,0 +1,10 @@
+Avanzamos con swing - Parte2
+
+
+private void createUIComponents() {
+this.tablaModeloLibros = new DefaultTablMode(0, 5);
+String[] cabecera = {"Id", "Libro", "Autor", "Precio", "Existencias"}
+this.tablaModeloLibros.setColumnIdentifiers(cabecera);
+this.tablaLibros = new JTable(tablaModeloLibros);
+
+}

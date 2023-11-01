@@ -1,0 +1,11 @@
+dunder doc parte 1
+
+
+from mi_clase import MiClase
+
+help(MiClase)
+
+print(MiClase.doc) #esto es solo para saber que MiClase esta aqui
+print(MiClase.init.doc) #este metodo es el de inicio a clase
+print(MiClase.mi_metodo.doc) #este metodo es un objeto y se le pueden dar parametros
+print(type(MiClase.mi_metodo)) #esto muestra de que tipo es el metodo

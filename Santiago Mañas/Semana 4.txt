@@ -1,0 +1,16 @@
+Método listarEstudiante
+
+
+
+import java.util.list;
+
+public class estudiantesServicio implemets IEstudianteServicio{
+@Autowired
+private EstudiantesRepositorio estudiantesRepositorio;
+
+@Override
+public list<Estudiante> listarEstudiantes(){
+    list<Estudiante> estudiantes = estudiantesRepositorio.FindAll();
+    return estudiantes;
+}
+}

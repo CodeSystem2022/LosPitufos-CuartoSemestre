@@ -1,0 +1,29 @@
+Parte 1 -> Configurando signup
+
+
+
+import {pool} from "..db.js"
+
+export const signin = (rea, res) => res.send("ingresando”);
+
+export const signup = async (reg, res) => {
+const ( name , email, password) = req.body;
+res.send("Registrado")
+
+pool.query["INSERT INTRO usuarios (name, email, password) VALUES ($1, $2, $3)", [name, email, password]
+};
+
+export const signout = (reg, res) => res.send("Cerrando sesion");
+
+export const profile = (rea, res) => res.send("Perfil de usuario"
+
+CREATE TABLE usuarios (
+id SERIAL PRIMARY KEY,
+name VARCHAR (255) NOT NULL,
+email VARCHAR (255) UNIQUE NOT NULL,
+password VARCHAR (255) NOT NULL,
+fecha_registro TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+fecha_atualizacion TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+
+);
+

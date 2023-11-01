@@ -1,0 +1,10 @@
+Agregando los botones Parte 1
+
+agregarButton.addActionListener(new addActionListener() {
+@OverRide
+public void actionPerformed(ActionEvent e) {
+
+}
+});
+
+//este es el codigo que se añade al agregar el boton
