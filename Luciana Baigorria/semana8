@@ -1,0 +1,11 @@
+package utn.tienda_libros;
+
+import...
+        
+@SpringBootApplication
+public class TiendaLibrosApplication {
+    
+    public static void main(String[] args) {SpringApplication.run(TiendaLibrosAplication..args.)}
+       ConfigurableApplicationContext contextoSpring =
+               new SpringApplicationBuilder(TiendaLibrosApplication.class)
+               
