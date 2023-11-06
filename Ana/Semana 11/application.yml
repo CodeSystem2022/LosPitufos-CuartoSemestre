@@ -1,0 +1,20 @@
+spring:
+application:
+name: todo-app
+datasource:
+driver-class-name: Comment.mysql.cj.jdbc.driver
+username: ${DB_USER}
+  password:${DB_PASS}
+  url:"jdbc:mysql://localhost:3306/db_todo_api?createDatabaseIfNotExist=true"
+jpa:
+  show-sql:true
+database: mysql
+database-platform: origin.hibernate.dialect.MySQL8Dialect
+defer-datasource-initialization: true
+properties:
+hibernate:
+format_sql: true
+ddl-auto: update
+output:
+ansi:
+enabled: always
