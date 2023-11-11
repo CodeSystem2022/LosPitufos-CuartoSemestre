@@ -1,0 +1,9 @@
+import charts
+
+def run():
+charts.generate_pie_chart()
+
+if name == 'main':
+run()
+
+(Luego en la terminal (cmd) usar el comando "pwd" y luego "python3 main.py") Asi se crea la grafica "pie.png"
